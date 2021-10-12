@@ -16,4 +16,4 @@ jobs:
         with:
           node-version: 14.x
       - name: Install dependencies
-        runL npm clean-install
+        run: npm clean-install
